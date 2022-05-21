@@ -6,13 +6,13 @@ const routes = require('./routes/routes')
 
 const app = express()
 
-// Conexão com o banco de dados
+// conexão com o banco de dados
 db.connect()
 
-// habilita server para receber dados via post (formulário)
-app.use(express.urlencoded({ extended: true }))
+// habilita server para receber dados no formato json
+app.use(express.json())
 
-// Definindo as rotas
+// definindo as rotas
 app.use('/api', routes)
 
 // executando o servidor
