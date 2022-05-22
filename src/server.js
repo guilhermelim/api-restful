@@ -15,7 +15,6 @@ const allowedOrigins = [
     'http://127.0.0.1:5500',
     'http://www.app.com.br',
 ]
-
 app.use(cors({
     origin: function (origin, callback) {
         let allowed = true

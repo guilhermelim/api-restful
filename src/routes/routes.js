@@ -1,11 +1,17 @@
-/**                      VERBOS HTTP (4 TIPOS)
- *  GET      - Obter dados
- *  POST     - Enviar/Receber dados
- *             -> Do ponto de vista do client ele envia dados
- *             -> Do ponto de vista do Servidor ele recebe dados
- * PUT      - Atualizar dados
- * DELETE   - Remover dados
-*/
+/**
+ *                     VERBOS HTTP (4 TIPOS)
+ * +---------+-------------------------------------------------+
+ * | Métodos | Descrição                                       |
+ * +---------+-------------------------------------------------+
+ * | GET     | Para realizar requisição de dados ao servidor.  |
+ * +---------+-------------------------------------------------+
+ * | POST    | Para fazer a inclusão de dados no servidor.     |
+ * +---------+-------------------------------------------------+
+ * | PUT     | Para atualizar dados no servidor.               |
+ * +---------+-------------------------------------------------+
+ * | DELETE  | Para excluir dados no servidor.                 |
+ * +---------+-------------------------------------------------+
+ */
 
 const router = require('express').Router()
 

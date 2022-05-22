@@ -1,8 +1,8 @@
 {
   "name": "api-restful",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Uma API Restful perfeita para utilizar como base de outros projetos.",
+  "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
